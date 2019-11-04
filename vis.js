@@ -166,7 +166,7 @@ function showLeg(me, selectedG) {
         svgContainer.selectAll(".circles")
         .data(data)
         .attr("display", display);
-    } else if (selected == "All" && selecteG != "All") {
+    } else if (selected == "All" && selectedG != "All") {
         svgContainer.selectAll(".circles")
         .data(data)
         .filter(function(d) {return selectedG == d.Generation})
