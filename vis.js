@@ -191,8 +191,8 @@ function plotData(map) {
 
     var color = d3.scaleOrdinal()
     .domain(Array.from(new Set(data.map(d => d["Type 1"]))))
-    .range(["#4E79A7", "#A0CBE8", "#F28E2B", "#FFBE&D", "#59A14F", "#8CD17D",
-    "#B6992D", "#499894", "#86BCB6", "#86BCB6", "#E15759", "#FF9D9A", "#79706E", "#BAB0AC", "#D37295"])
+    .range(["#4E79A7", "#A0CBE8", "#F28E2B", "#FFBE&D", "#59A14F", "#8CD17D", "#FDCBA5",
+    "#B6992D", "#499894", "#86BCB6", "#E15759", "#FF9D9A", "#79706E", "#BAB0AC", "#D37295", "#957DAD", "#B64D3A", "#F1C470"])
 
     // append data to SVG and plot as points
     svgContainer.selectAll('.dot')
