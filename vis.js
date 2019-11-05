@@ -211,7 +211,7 @@ function plotData(map) {
             div.transition()
                 .duration(200)
                 .style("opacity", .9);
-                div.html(d["Name"]+ "<br/>" +
+                div.html("<em>" + d["Name"] +"</em>"+ "<br/>" +
                         d["Type 1"] + "<br/>" +
                         d["Type 2"])
                 .style("left", (d3.event.pageX) + "px")
